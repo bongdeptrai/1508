@@ -4,7 +4,7 @@ html {
 
 .text {
     margin: 12px 0px;
-    font-family: cursive;
+    font-family:'Quicksand';
     font-size: 20px;
     font-weight: bold;
     color: #fff;
@@ -17,7 +17,7 @@ html {
     margin-left: 30px;
 }
 .text2 {
-    margin-left: 120px;
+    margin-left: 130px;
 }
 .container {
     background-color: aliceblue;
@@ -57,6 +57,10 @@ html {
 }
 .myflower {
     color: #DB7093;
+}
+.soundforsoul {
+    color:#349084;
+    text-decoration: none;
 }
 .end {
     text-align: center;
