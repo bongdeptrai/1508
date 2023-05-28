@@ -1,77 +1,19 @@
+/* Thiết lập định dạng cho các phần tử tiêu đề và nội dung của trang web */
 body {
-    background-color:#141414;
-    font-family: 'Quicksand', sans-serif;
+  background-color: #141414;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .project {
-    background-color: #1C1C1C;
-    color: white;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 800px;
-    width: 100%;
-}
-
-.head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.art1 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 5px solid white;
-}
-
-.text {
-    margin-left: 30px;
-}
-
-.text1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.text2 {
-    font-size: 1.5em;
-    font-style: italic;
-}
-
-.information {
-    display: flex;
-    margin-bottom: 30px;
-}
-
-.topic {
-    font-size: 1.2em;
-    margin-right: 10px;
-}
-
-.detail {
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.detail a {
-    color: #Để hoàn thành mã CSS cho trang web khoa học viễn tưởng của bạn, hãy thêm đoạn mã CSS bên dưới vào tệp style.css:
-
-```css
-/* Thiết lập định dạng cho các phần tử tiêu đề và nội dung của trang web */
-.project {
-  background-color: #141414;
-  color: #fff;
+  background-color: #1C1C1C;
+  color: white;
   padding: 50px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -91,7 +33,7 @@ body {
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid #fff;
+  border: 5px solid white;
 }
 
 .text {
