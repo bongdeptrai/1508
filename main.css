@@ -6,16 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  object-fit: cover;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
+
 a {
   color: #fff;
   text-decoration: none;
