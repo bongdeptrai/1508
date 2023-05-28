@@ -35,6 +35,8 @@ header {
 .logo {
   font-size: 2em;
   font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 
 nav ul {
