@@ -1,104 +1,84 @@
-html {
-    background-color: pink;
+body {
+    background-color: #FFC0CB;
 }
 
-.text {
-    margin: 12px 0px;
-    font-family:'Quicksand';
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    border: 5px solid #349084;
-    border-radius: 12px;
-    background-color: #42b5a6;
-    font-style: italic;
-}
-.text1 {
-    margin-left: 30px;
-}
-.text2 {
-    margin-left: 130px;
-}
 .container {
-    background-color: aliceblue;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin: 50px 80px;
+    border-color: #20B2AA;
+    border-width: 3px;
     border-radius: 18px;
-    margin: 30px;
-    padding: 20px;
 }
+
 .head {
-    border-bottom: 1.2px solid black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
+.introducing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .art1 {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-    border-radius: 18px;
-    width: 96%;
-    
+    margin-top: 20px;
+}
+
+.anh1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .mid {
-    margin: 20px 0px;
-    padding-bottom: 20px;
-    border-bottom: 1.2px solid black;
-      
-}
-.information {
     display: flex;
-    line-height: 24px;
-    font-family: 'Quicksand';
+    flex-direction: column;
 }
+
+.infomation {
+    display: flex;
+    margin: 20px;
+}
+
 .topic {
-    font-weight:bold;
-    color: rgb(55, 55, 55);
+    font-size: 1.2em;
+    margin-right: 10px;
 }
+
 .detail {
-   color: #2c2c2c;
-   padding-left: 5px;
-}
-.myflower {
-    color: #DB7093;
-}
-.soundforsoul {
-    color:#349084;
-    text-decoration: none;
-}
-.end {
-    text-align: center;
-    font-family: 'Quicksand';
-}
-.applogo {
-    width: 25px;
-}
-.app{
-    display: flex;
-    margin-left: 10px;
-    background-color: grey;
-    border-radius: 18px;
-}
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-}
-.card {
-    margin: 0px 20px;
-    padding: 0px;
-    display: flex;
-    background-color: #efb0c9;
-    border-radius: 6px;
-    border-color: #DB7093;
-    border-width: 5px;
-}
-.logo {
-    width: 20px
-}
-.link {
+    font-size: 1.2em;
     font-weight: bold;
-    color: rgb(240,255,255);
-    text-decoration: none;
-    padding-top: 1.5px;
-    margin-left: 1px;
-    font-family: 'Quicksand';
+}
+/* Thiết lập định dạng cho màn hình nhỏ hơn hoặc bằng 600px */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .head {
+    margin-bottom: 10px;
+  }
+  
+  .anh1 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .topic {
+    font-size: 1em;
+  }
+  
+  .detail {
+    font-size: 1em;
+  }
 }
