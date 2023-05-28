@@ -1,56 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duong Minh Tuan's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <header>
-      <div class="logo">Duong Minh Tuan</div>
       <nav>
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      
     </header>
-    <img class="avatar" src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/343312994_950695656085127_5359802123106626362_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=kBJK3JOzZIUAX-HAIbx&_nc_ht=scontent.fhan5-8.fna&oh=00_AfAThT_bqtwbg6fxrl5I8HY8am2753k6mpW45k_CemSXxg&oe=647739BC" alt="Avatar">
-    <section id="hero">
+
+    <section class="hero">
       <div class="hero-content">
-        <h1>You're never too young for big dream!</h1>
-        <p>I love to make people laugh&amp;smile. For you, for me and more.</p>
+        <h1>About Me</h1>
+        <p>You're never too young for big dream! Ilove to make people laugh&amp;smile. For you, for me and more.</p>
       </div>
     </section>
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/500x500.png?text=Portfolio+Item+1" alt="Portfolio Item 1">
-          <h3>Portfolio Item 1</h3>
-          <p>Description of portfolio item 1.</p>
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/500x500.png?text=Portfolio+Item+2" alt="Portfolio Item 2">
-          <h3>Portfolio Item 2</h3>
-          <p>Description of portfolio item 2.</p>
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/500x500.png?text=Portfolio+Item+3" alt="Portfolio Item 3">
-          <h3>Portfolio Item 3</h3>
-          <p>Description of portfolio item 3.</p>
-        </div>
-      </div>
-    </section>
-    <section id="about">
+
+    <section class="about">
       <div class="about-content">
-        <h2>About Me</h2>
-        <p>Hello, my name is Duong Minh Tuan. I am a developer and my hobby is myflower❀. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nullam tortor metus, condimentum nec lacinia ac, dictum a risus. Etiam sed fermentum quam. Sed at lorem ut elit pharetra condimentum. Donec feugiat tellus eu magna faucibus, nec faucibus sem aliquet.</p>
+        <h2>Full name</h2>
         <p>Birthday: August 15th, 2003</p>
         <p>Job: Developer</p>
         <p>Email: minhtuan66@hus.edu.vn</p>
@@ -58,14 +36,25 @@
         <p>Website: soundforsoul🎹</p>
       </div>
     </section>
-    <section id="contact">
-      <div class="contact-content">
-        <h2>Contact Me</h2>
-        <p>If you want to get in touch with me, please send an email to <strong>minhtuan66@hus.edu.vn</strong>.</p>
-      </div>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send" />
+      </form>
     </section>
+
     <footer>
-      <p>&copy; 2023 Duong Minh Tuan</p>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
     </footer>
   </body>
 </html>
