@@ -36,6 +36,12 @@ nav ul li {
 nav ul li a {
   color: #333;
   text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #f2a154;
 }
 
 .hero {
@@ -47,11 +53,13 @@ nav ul li a {
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #333;
 }
 
 .hero-content p {
- font-size: 1.2rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: #666;
 }
 
 .about {
@@ -68,11 +76,13 @@ nav ul li a {
 .about-content h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  color: #333;
 }
 
 .about-content p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  color: #666;
 }
 
 .contact {
@@ -84,6 +94,7 @@ nav ul li a {
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: #333;
 }
 
 form {
@@ -94,6 +105,7 @@ form {
 label {
   display: block;
   margin-bottom: 0.5rem;
+  color: #333;
 }
 
 input,
@@ -105,81 +117,17 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #333;
+  background-color: #f2a154;
   color: #fff;
   border: none;
   padding: 0.8rem 1.2rem;
   border-radius: 4px;
   cursor: pointer;
   margin-top: 1rem;
+  transition: background-color 0.3s ease-in-out;
 }
 
 input[type="submit"]:hover {
-  background-color: #4c4c4c;
-}
-
-@media only screen and (max-width: 768px) {
-  header {
-    position: relative;
-  }
-
-  nav ul {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-  }
-
-  nav ul li {
-    margin-bottom: 1rem;
-  }
-
-  nav ul li a {
-    color: #333;
-    text-decoration: none;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: all 0.3s ease-in-out;
-  }
-
-  nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
-  }
-
-  .hero {
-    padding: 4rem 0;
-  }
-
-  .hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .about-content h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .about-content p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .contact h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  input[type="submit"] {
-    padding: 0.7rem 1.2rem;
-    font-size: 1rem;
-  }
+  background-color: #f5871f;
 }
 
